@@ -3,6 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ua.javarush</groupId>
     <artifactId>pancake</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
 
@@ -32,6 +33,11 @@
     <build>
         <finalName>pet-project.pancake</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
